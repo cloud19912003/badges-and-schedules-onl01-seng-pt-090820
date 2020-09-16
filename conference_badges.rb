@@ -3,6 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.each{|name| "Hello, my name is #{name}."} 
+  badges = []
+  names.each{|name| badges << "Hello, my name is #{name}."} 
 end
 
