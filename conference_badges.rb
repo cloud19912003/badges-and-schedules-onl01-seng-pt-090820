@@ -9,5 +9,5 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  names.map.with_index{|name| badges << "Hello, my name is #{name}."}
+  names.map.with_index{|name, index| "Hello, my name is #{name}."}
 end
